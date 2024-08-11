@@ -1,0 +1,71 @@
+body{
+    background : url("/IND\ PRO/img/loginbgimg1.jpg") no-repeat;
+    background-size: 100%;
+    height: auto;
+}
+
+form{
+    font-weight: bold;
+    width:40%;
+    margin: auto;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    border-radius: 10px;
+}
+fieldset{
+    padding: 20px;
+    color: aliceblue;
+    background-color: rgb(92, 92, 92);
+    border:1.5px solid black;
+    opacity: 0.9;
+    border-radius: 10px;
+}
+legend,button{
+    color: black;
+    background-color:rgb(255, 204, 0);
+    border: 1.5px solid;
+    border-radius: 5px;
+    padding:5px;
+}
+input{
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px 0px 20px 0px;
+}
+button{
+    width: 100%;
+}
+button:hover{
+    background-color:rgb(230, 184, 0);
+}
+#chb{
+    width: 5%;
+}
+
+@media screen and (min-width : 992px) {
+    form{
+        width:40%;
+    }
+}
+
+/* For Medium Screen */
+@media screen and (768px < width <= 992px) {
+    form{
+        width:50%;
+    }
+}
+
+/* For Medium Screen */
+@media screen and (576px < width <= 768px) {
+    form{
+        width:60%;
+    }
+}
+
+/* For Medium Screen */
+@media screen and ( width < 576px) {
+    form{
+        width:90%;
+    }
+}

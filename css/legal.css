@@ -1,0 +1,23 @@
+body #content_of_the_page{
+    margin: auto;
+    width: 60%;
+    margin-bottom: 5%;
+}
+#content_of_the_page h1{
+    display: block;
+    text-align: center;
+    position:static;
+    
+    font-size: 60px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#logo_h1 span{
+    color: black;
+}
+p{
+    text-align: justify;
+    
+    margin: auto;
+    font-size: x-large;
+}
